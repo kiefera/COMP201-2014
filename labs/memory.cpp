@@ -124,7 +124,7 @@ Model::Model(int w, int h) {
 	int otheri, otherj;
 	for (int i = 0; i < height; i++)
 	{
-		for (int j = 0; j < width; j++)
+		for (int j; j < width; j++)
 		{
 			otheri = rand() % height;
 			otherj = rand() % width;
